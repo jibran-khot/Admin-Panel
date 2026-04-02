@@ -9,5 +9,8 @@ export class EnvironmentService {
     readonly getDatasetList = `${this.apiBaseUrl}/dataset/list`;
     readonly executeCurd = `${this.apiBaseUrl}/curd/execute`;
     readonly health = `${this.apiBaseUrl}/health`;
+
     readonly production = environment.production;
+    //   readonly production = environment.production;
+
 }
